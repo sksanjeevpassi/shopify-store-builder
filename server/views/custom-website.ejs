@@ -1,0 +1,40 @@
+<script async defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <style>
+        .gradient{
+            background: <%= theme_color %> !important;
+        }
+
+        body {
+            font-family: <%= fontchoices %> !important;
+        }
+
+        h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5, p, li, span {
+          font-family: <%= fontchoices %> !important;
+          color: <%= font_color %>  !important;
+        }
+        
+
+        .email_txt{
+            color:#fff;
+        }
+    </style>
+
+    <script type="text/javascript">
+    setTimeout(function () {
+        $(document).ready(function(){
+            var logoname = "<%= filename %>";
+            var display_email = "<%= display_email %>";
+            var base_URL = "<%= base_URL %>";
+            if(logoname){
+                var imgsrc = base_URL+"/theme/images/"+logoname;
+                $(".header__heading-link").html('<img src="'+imgsrc+'" width="90" height="60.03243243243243" class="header__heading-logo">');
+            }
+            $(".footer-block__details-content").append("<li class='list-social__item'><img src='https://frontend-cutomewebsite.webgarh.net/theme/images/e1.png'>"+display_email+"</li>")
+        });
+    }, 1000);
+</script>
+
+<style>
+    <%= css_str %>
+</style>

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.70506d7c.chunk.css",
+    "main.js": "/static/js/main.186e5670.chunk.js",
+    "main.js.map": "/static/js/main.186e5670.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.70b25b25.js",
+    "runtime-main.js.map": "/static/js/runtime-main.70b25b25.js.map",
+    "static/js/2.d5aded0d.chunk.js": "/static/js/2.d5aded0d.chunk.js",
+    "static/js/2.d5aded0d.chunk.js.map": "/static/js/2.d5aded0d.chunk.js.map",
+    "static/js/3.7570fa4a.chunk.js": "/static/js/3.7570fa4a.chunk.js",
+    "static/js/3.7570fa4a.chunk.js.map": "/static/js/3.7570fa4a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9fa8a7a786fb1cdc0ee767af78eee66f.js": "/precache-manifest.9fa8a7a786fb1cdc0ee767af78eee66f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.70506d7c.chunk.css.map": "/static/css/main.70506d7c.chunk.css.map",
+    "static/js/2.d5aded0d.chunk.js.LICENSE.txt": "/static/js/2.d5aded0d.chunk.js.LICENSE.txt",
+    "static/media/atm-card.png": "/static/media/atm-card.8b0039c4.png",
+    "static/media/check-mark.png": "/static/media/check-mark.c938f674.png",
+    "static/media/paypal.png": "/static/media/paypal.16965918.png",
+    "static/media/shopify.png": "/static/media/shopify.a407467a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70b25b25.js",
+    "static/js/2.d5aded0d.chunk.js",
+    "static/css/main.70506d7c.chunk.css",
+    "static/js/main.186e5670.chunk.js"
+  ]
+}

@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  font-family: 'Noto Sans', sans-serif;
+
+}
+
+
+.stepper .StepButton-0-2-4 {
+    width: 3em ;
+    border: none ;
+    cursor: pointer ;
+    height: 3em ;
+    margin: 0px ;
+    display: flex ;
+    padding: 0px ;
+    font-size: 1em ;
+    align-items: center ;
+    border-radius: 50% ;
+    justify-content: center ;
+    background-color: rgb(255, 255, 255) ;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100%;
+  margin: 0 auto;
+  background: #dddddd1c;
+  min-height: 100vh;
+
+  }
+  
+  .main-container__header, .main-container__subheader {
+    text-align: center;
+  }
+  
+  .form {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #fafafa;
+    padding: 25px 15px;
+  }
+  
+  .form-group {
+    text-align: center
+  }
+  
+  .form-group__element {
+    margin: 10px auto;
+    gap: 20px;
+    max-width: 400px;
+   
+  }
+  
+  .form-group__label {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 400;
+    color: #222;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+
+  
+  
+  .form-group__input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+  }
+  
+  .buttons.footer_btn{  
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: 30px auto 0px;
+}
+  
+  .buttons__button{
+    padding: 10px 30px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    background: #003a6b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+   
+
+}
+
+button.buttons__button.buttons__button--back {
+  background: #757575b3;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+  
+  .buttons__button:hover {
+    cursor: pointer;
+    box-shadow: 3px 2px 3px rgba(175, 175, 175, 0.4);
+  }
+  
+ 
+  
+
+  
+  .select {
+    text-align: center;
+  }
+  
+  .select__item {
+    width: 500px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #003487;
+  }
+  
+  .select__item:hover {
+    cursor: pointer
+  }
+  
+  .table {
+    width: 500px;
+    margin: 15px auto;
+  }
+  
+  .summary {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #003a6b;
+    padding: 10px;
+    border-radius: 3px;
+  }
+  
+  .summary__heading {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .summary__item-title {
+    font-weight: bold;
+  }
+  
+  .stepper {
+    padding: 3vh 0 !important;
+  }
+  
+  .stepper__step {
+    border: 1px solid #003a6b !important;
+    cursor: default !important;
+  }
+  
+  .stepper__step + div > span {
+    color: #003a6b !important;
+  }
+  
+  .RFS-ConnectorContainer {
+    left: calc((-50% + 2em) - 8px) !important;
+    right: calc((50% + 2em) - 8px) !important;
+  }
+  
+  .error {
+    margin-top: 0;
+    color: #c51e1e !important;
+    font-size: 90%;
+  }
+/* 
+  .Connector-d31-0-2-117 , .Connector-d47-0-2-173 ,.Connector-d63-0-2-229 , .Connector-d79-0-2-285 , .Connector-d95-0-2-341{
+    display: block !important;
+    border-color: rgb(189, 189, 189)!important;
+    border-top-style: solid !important;
+    border-top-width: 1px !important;
+}
+
+.Connector-d31-0-2-117 , .Connector-d47-0-2-173 , .Connector-d63-0-2-229 , .Connector-d79-0-2-285 , .Connector-d95-0-2-341 {
+    position: absolute !important;
+    right: 0 !important;
+    top: 22px !important;
+    left: -25px !important;
+    width: 57px !important;
+}
+.StepButton-d98-0-2-280 .active {
+    background-color: rgb(43, 124, 255);
+} */
+
+
+
+
